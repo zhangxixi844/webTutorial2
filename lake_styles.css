@@ -1,0 +1,107 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+body{
+    background-color:rgb(189, 183, 107);
+}
+
+header{
+    background-color: rgb(139,0,139);
+}
+
+header>nav>ul>li a{
+    color: rgb(203, 204, 204);
+    font-weight: bold;
+    font-size: 10pt;
+    padding: 10px;
+    text-decoration: none;
+}
+
+section#leftcol>h1{
+    color: white;
+    font-family: myFirstFont;
+    font-size: 50pt;
+}
+
+section#leftcol{
+    background-color: black;
+    padding: 30px;
+}
+
+section#leftcol p{
+    color: white;
+    font-size: 10pt;
+}
+
+@font-face {
+        font-family: myFirstFont;
+        src: url("cac_champagne.ttf");
+}
+
+section#leftcol>aside>h1{
+    color: white;
+    text-align: center;
+}
+
+section#leftcol>aside{
+    background-color: rgb(255, 153, 153);
+    padding: 10px;
+}
+
+section#leftcol>aside>ul>li{
+    color: aliceblue;
+    
+}
+
+section#leftcol>aside>ul>li>cite>a{
+    color: rgb(246, 185, 234);
+}
+section#leftcol>aside>ul>li>a{
+    color: rgb(246, 185, 234);
+}
+
+section#leftcol aside.special{
+    background-color: rgb(216, 202, 123);
+    padding: 10px;
+}
+
+section#leftcol>aside>h2{
+    color: aliceblue;
+    font-size: 12pt;
+}
+
+section#rightcol>nav>h2{
+    color: aliceblue;
+    font-family: myFirstFont;
+    font-size: 30pt;
+}
+
+section#rightcol{
+    background-color: rgb(102, 0, 102);
+    color: rgb(102, 0, 102);
+    padding: 20px;
+}
+
+section#rightcol>nav>ul>li>a{
+    color: rgb(203, 204, 204);
+    text-decoration: none;
+}
+
+section#rightcol>blockquote{
+    color: rgb(186, 85, 211);
+}
+
+body>footer{
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+    text-align: center;
+}
